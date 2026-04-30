@@ -18,8 +18,8 @@ jobs:
         with:
           node-version: 18
 
-      - name: Vérifier Node
-        run: node -v
+      - name: Installer dépendances
+        run: npm install
 
       - name: Exécuter app.js
         run: node app.js
